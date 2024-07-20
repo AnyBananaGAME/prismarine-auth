@@ -5,7 +5,6 @@ const debug = require('debug')('prismarine-auth')
 const { SmartBuffer } = require('smart-buffer')
 const { exportJWK } = require('jose')
 const fetch = require('node-fetch')
-const jose = require('node-jose');
 
 const { Endpoints, xboxLiveErrors } = require('../common/Constants')
 const { checkStatus, createHash } = require('../common/Util')
